@@ -1,0 +1,18 @@
+{
+  "Cisco-IOS-XE-native:native": {
+    "router": {
+      "Cisco-IOS-XE-ospf:ospf": [
+        {
+          "id": 1,
+          "network": [
+            {
+              "ip": "10.10.10.1",
+              "mask": "0.0.0.0",
+              "area": "0"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

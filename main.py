@@ -69,3 +69,14 @@ send_config(
     interfaces_config
 )
 get_config("/Cisco-IOS-XE-native:native/interface/Loopback=0")
+
+ospf_config = load_json("config/ospf.json")
+
+send_config(
+    "/Cisco-IOS-XE-native:native",
+    ospf_config
+)
+
+get_config(
+    "/Cisco-IOS-XE-native:native/router"
+)
