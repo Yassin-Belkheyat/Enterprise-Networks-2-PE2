@@ -8,6 +8,7 @@
   - Loopback0 interface
   - IPv4-adres configuratie
   - OSPF process
+  
   Daarnaast voert het script RESTCONF GET-operaties uit om de configuratie te valideren.
 ## Gebruikte technologieën
   - Python 3
