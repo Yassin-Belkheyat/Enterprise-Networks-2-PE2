@@ -2,12 +2,13 @@ import requests
 import json
 from requests.auth import HTTPBasicAuth
 import urllib3
+from getpass import getpass
 
 urllib3.disable_warnings()
 
-ROUTER_IP = "192.168.248.128"
-USERNAME = "cisco"
-PASSWORD = "cisco123!"
+ROUTER_IP = input("Geef het ip-adres van de router :")
+USERNAME = input("Geef de username: ")
+PASSWORD = getpass("Geef het wachtwoord: ")
 
 BASE_URL = f"https://{ROUTER_IP}/restconf/data"
 
