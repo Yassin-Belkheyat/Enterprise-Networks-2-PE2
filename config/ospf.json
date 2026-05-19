@@ -1,16 +1,4 @@
 {
-<<<<<<< HEAD
-  "Cisco-IOS-XE-native:native": {
-    "router": {
-      "Cisco-IOS-XE-ospf:ospf": [
-        {
-          "id": 1,
-          "network": [
-            {
-              "ip": "10.20.50.1",
-              "mask": "0.0.0.0",
-              "area": "0"
-=======
  "Cisco-IOS-XE-native:router": {
         "Cisco-IOS-XE-ospf:router-ospf": {
             "ospf": {
@@ -19,14 +7,13 @@
                         "id": 1,
                         "network": [
                             {
-                                "ip": "10.20.10.1",
+                                "ip": "10.20.50.1",
                                 "wildcard": "0.0.0.0",
                                 "area": 0
                             }
                         ]
                     }
                 ]
->>>>>>> 453d4ca (corrected mistakes in script and json file)
             }
         }
     }
